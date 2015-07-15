@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/x150">
+
+        <Button
+            android:layout_width="@dimen/x150"
+            android:layout_height="match_parent"
+            android:text="New Button"
+            android:id="@+id/button"
+            android:background="#ff5975ff" />
+        <TextView
+            android:id="@+id/id_tongxunlu"
+            android:layout_width="@dimen/x650"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="人力资源管理"
+
+            android:textSize="15dip"
+            android:background="#ff99b2ff" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <fragment
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:name="com.example.administrator.oop.fragments.NineSquares01"
+            android:id="@+id/fragment" />
+    </FrameLayout>
+
+</LinearLayout>
