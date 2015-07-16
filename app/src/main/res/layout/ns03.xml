@@ -28,7 +28,7 @@
     <SurfaceView
         android:layout_width="match_parent"
         android:layout_height="@dimen/y718"
-        android:id="@+id/surfaceView"
+        android:id="@+id/sv"
         android:layout_gravity="center_horizontal" />
 
     <LinearLayout
@@ -39,19 +39,19 @@
         <Button
             android:layout_width="@dimen/x266"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:text="NEw button6"
             android:id="@+id/button6" />
 
         <Button
             android:layout_width="@dimen/x266"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:text="New Button7"
             android:id="@+id/button7" />
 
         <Button
             android:layout_width="@dimen/x266"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:text="New Button8"
             android:id="@+id/button8" />
     </LinearLayout>
 
